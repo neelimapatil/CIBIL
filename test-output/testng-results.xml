@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testng" duration-ms="51520" started-at="2019-05-04T15:36:13Z" finished-at="2019-05-04T15:37:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51520" started-at="2019-05-04T15:36:13Z" finished-at="2019-05-04T15:37:04Z">
+      <class name="testCases.ManageCompanyPageTest">
+        <test-method status="PASS" signature="setupBeforeTest()[pri:0, instance:testCases.ManageCompanyPageTest@5e5792a0]" name="setupBeforeTest" is-config="true" duration-ms="23810" started-at="2019-05-04T21:06:13Z" finished-at="2019-05-04T21:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method status="PASS" signature="createNewCompany(org.testng.ITestContext)[pri:1, instance:testCases.ManageCompanyPageTest@5e5792a0]" name="createNewCompany" duration-ms="15082" started-at="2019-05-04T21:06:37Z" finished-at="2019-05-04T21:06:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22f59fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCompany -->
+        <test-method status="PASS" signature="editCompany(org.testng.ITestContext)[pri:2, instance:testCases.ManageCompanyPageTest@5e5792a0]" name="editCompany" duration-ms="12581" started-at="2019-05-04T21:06:52Z" finished-at="2019-05-04T21:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22f59fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCompany -->
+      </class> <!-- testCases.ManageCompanyPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- testng -->
+</testng-results>

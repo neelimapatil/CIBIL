@@ -1,0 +1,47 @@
+[{
+"userrole" : "fm",
+"username" : "dummyfm",
+"password" : "passw0rd",
+"status" : "valid"
+},
+{
+"userrole" : "rm",
+"username" : "dummyrm",
+"password" : "passw0rd",
+"status" : "valid"
+},
+{
+"userrole" : "coh",
+"username" : "dummycoh",
+"password" : "passw0rd",
+"status" : "valid"
+},
+{
+"userrole" : "fm",
+"username" : "dummyfm",
+"password" : "password",
+"status" : "invalid",
+"errormessage" : "Please Enter Valid Username or Password!!!"
+},
+{
+"userrole" : "rm",
+"username" : "dummy",
+"password" : "passw0rd",
+"status" : "invalid",
+"errormessage" : "Please Enter Valid Username or Password!!!"
+},
+{
+"userrole" : "",
+"username" : "",
+"password" : "",
+"status" : "invalid",
+"errormessage" : "Please Enter Valid Username or Password!!!"
+},
+{
+"userrole" : "fm",
+"username" : "dummyfm",
+"password" : "",
+"status" : "invalid",
+"errormessage" : "Please Enter Valid Username or Password!!!"
+}
+]

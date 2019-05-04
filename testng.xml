@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng">
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="utils.ListenerTest" />
+	</listeners>
+  <test name="Test">
+ <!--   <parameter name="username" value="dummyfm"></parameter>
+    <parameter name="password" value="passw0rd"></parameter>
+    <parameter name="role" value="cfo"></parameter> -->
+    <classes>
+ <!--    <class name="testCases.LoginPageTest"/>
+    <class name="testCases.HomePageTest"/> -->
+    <class name="testCases.ManageCompanyPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
